@@ -1,0 +1,14 @@
+#
+cmake_minimum_required(VERSION 3.12)
+project("tlpi")
+
+add_subdirectory(acl)
+add_subdirectory(altio)
+add_subdirectory(cap)
+add_subdirectory(cgroups)
+add_subdirectory(daemons)
+add_subdirectory(dirs_links)
+add_subdirectory(filebuff)
+add_subdirectory(fileio)
+add_subdirectory(filelock)
+add_subdirectory(mmap)
