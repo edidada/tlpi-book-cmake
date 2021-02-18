@@ -1,0 +1,1 @@
+add_executable(detached_attrib detached_attrib.c)
