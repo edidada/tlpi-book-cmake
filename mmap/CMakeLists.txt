@@ -7,4 +7,4 @@ link_directories(../lib)
 #link_libraries()
 add_executable(mmap mmcopy.c ../lib/error_functions.c ../lib/tty_functions.c)
 
-add_executable(anon_mmap anon_mmap.c)
+add_executable(anon_mmap anon_mmap.c ../lib/error_functions.c)
